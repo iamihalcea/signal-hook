@@ -11,8 +11,6 @@
     intra_doc_link_resolution_failure,
     broken_intra_doc_links
 )]
-// These little nifty labels saying that something needs a feature to be enabled
-#![cfg_attr(docsrs, feature(doc_cfg))]
 //! Library for easier and safe Unix signal handling
 //!
 //! Unix signals are inherently hard to handle correctly, for several reasons:
